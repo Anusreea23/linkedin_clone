@@ -107,26 +107,26 @@ class Dummydb {
   static final List<Map> notificationlist = [
     {
       "profileurl":
-          "https://i.pinimg.com/236x/97/d0/c1/97d0c19a50104e6afc5bb6f11240fa98.jpg",
+          "https://images.pexels.com/photos/27596282/pexels-photo-27596282/free-photo-of-a-woman-standing-on-top-of-a-circular-platform.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "descriptions":
           "peoplw with similar interest are following sachin Tendulkar",
       "data": "Indian,Cricketer,Mentor,Change-maker",
     },
     {
       "profileurl":
-          "https://i.pinimg.com/236x/a8/db/b3/a8dbb30cbd9913ba637e425ddbf31836.jpg",
+          "https://images.pexels.com/photos/27596282/pexels-photo-27596282/free-photo-of-a-woman-standing-on-top-of-a-circular-platform.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "descriptions": "Alice liked your post.",
       "data": "Indian,Cricketer,Mentor,Change-maker",
     },
     {
       "profileurl":
-          "https://i.pinimg.com/236x/64/88/0b/64880b9b0fe5b53bbe3f7280d262b33f.jpg",
+          "https://images.pexels.com/photos/27596282/pexels-photo-27596282/free-photo-of-a-woman-standing-on-top-of-a-circular-platform.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "descriptions": "Charlie commented on your photo.",
       "data": "Indian,Cricketer,Mentor,Change-maker",
     },
     {
       "profileurl":
-          "https://i.pinimg.com/236x/83/3a/61/833a6174e49d8de5f284ac28a7ee17cc.jpg",
+          "https://images.pexels.com/photos/27596282/pexels-photo-27596282/free-photo-of-a-woman-standing-on-top-of-a-circular-platform.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       "descriptions": "247 people attending an event created by Git",
       "data": "dex nova learning",
     },

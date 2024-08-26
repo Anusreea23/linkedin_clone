@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:linkedin_clone/view/profile_screen/profile_screen.dart';
 import 'package:linkedin_clone/view/profile_sidebar/profile_sidebar.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
@@ -25,15 +26,22 @@ class _CustomAppbarState extends State<CustomAppbar> {
                 children: [
                   Align(
                     alignment: Alignment.center,
-                    child: Container(
-                      height: 35,
-                      width: 35,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          image: DecorationImage(
-                              image: AssetImage(
-                                  "assets/images/pexels-olly-3779760.jpg"),
-                              fit: BoxFit.cover)),
+                    child: InkWell(
+                      onTap: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (BuildContext context) =>
+                                  ProfileScreen())),
+                      child: Container(
+                        height: 35,
+                        width: 35,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(20),
+                            image: DecorationImage(
+                                image: AssetImage(
+                                    "assets/images/pexels-olly-3779760.jpg"),
+                                fit: BoxFit.cover)),
+                      ),
                     ),
                   )
                 ],
